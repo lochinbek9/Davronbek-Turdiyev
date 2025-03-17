@@ -1,3 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gumela", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
 :root
 {
   --yellow: #F5C32C;
@@ -15,6 +34,25 @@
     padding: 0.5rem 3.5rem;
     overflow: hidden;
     color: var(--black);    
+}
+
+.button{
+  border-radius: 34px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+  box-shadow: 0 20px 24px 3px rgba(251, 161, 40, 0.42);
+  cursor: pointer;
+}
+
+.n-button:hover{
+  background: linear-gradient(180deg, #fb982f 26.71%, #fdc50f 99.36%);
+}
+
+.n-button{
+  flex: 2;
 }
 
 
