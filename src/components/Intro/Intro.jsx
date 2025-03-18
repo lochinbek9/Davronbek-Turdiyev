@@ -40,6 +40,9 @@ function Intro() {
         <div className="floating-wrapper">
           <FloatingDiv txt1="Best Design" txt2="Award" />
         </div>
+        <div className="blur" style={{background: "rgb(238 210 255)"}}>
+
+        </div>
       </div>
     </div>
   );
